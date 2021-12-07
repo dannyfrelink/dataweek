@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+	 viewBox="0 0 1920 1080" preserveAspectRatio='xMidYMid meet' style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;fill:#EBC7BD;}
 	.st1{fill:#EBC7BD;}
@@ -4019,7 +4019,7 @@
 <g id="route_tram">
 	<path class="st17" d="M436.83,779.85l250.82-56.32l128.94-43.55l115-42.58L1266,470.73c0,0,21.74-10.87,46.27-12.67
 		c24.54-1.8,37.35-12.14,39.14-19.92s5.92-20.05,25.07-29.02c19.15-8.98,86.54-38.85,86.54-38.85l41.54-17.87"/>
-	<path class="st18" d="M440.9,779.35l246.76-55.82l128.94-43.55l115-42.58L1266,470.73c0,0,21.74-10.87,46.27-12.67
+	<path onMouseMove={onMouseMove} class="st18" d="M440.9,779.35l246.76-55.82l128.94-43.55l115-42.58L1266,470.73c0,0,21.74-10.87,46.27-12.67
 		c24.54-1.8,37.35-12.14,39.14-19.92s5.92-20.05,25.07-29.02c19.15-8.98,86.54-38.85,86.54-38.85l52.84-22.74"/>
 </g>
 <g id="route_lopen_2">
