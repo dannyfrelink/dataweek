@@ -1,12 +1,12 @@
 import * as d3 from 'd3';
-import * as data from '../../data.json';
+import * as dataTravel from '../../dataTravel.json';
 
 // Activates on hover Map
 function onMouseMoveMap(d) {
     const xPosition = d.clientX;
     const yPosition = d.clientY;
     const transportID = d.currentTarget.dataset.transport
-    const dataSet = data.default[transportID]
+    const dataSet = dataTravel.default[transportID]
 
     d3.select(d.target)
         .style('opacity', 0.75)
@@ -26,7 +26,7 @@ function onMouseMoveGraph(d) {
     const xPosition = d.clientX;
     const yPosition = d.clientY;
     const transportID = d.currentTarget.dataset.transport
-    const dataSet = data.default[transportID]
+    const dataSet = dataTravel.default[transportID]
 
     d3.select(d.target)
         .style('opacity', 0.75)
