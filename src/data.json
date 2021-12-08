@@ -1,0 +1,38 @@
+{
+    "lopen1": {
+        "vervoer": "lopen",
+        "beginpunt": "Ceintuurbaan 87-2",
+        "eindpunt": "Tramhalte de Pijp",
+        "vertrektijd": "20:22:00",
+        "eindtijd": "20:22:24",
+        "afstand": "0,04km",
+        "snelheid": "6km/u"
+    },
+    "wachten": {
+        "vervoer": "",
+        "beginpunt": "Tramhalte de Pijp",
+        "eindpunt": "Tramhalte de Pijp",
+        "vertrektijd": "20:22:24",
+        "eindtijd": "20:23:00",
+        "afstand": "0km",
+        "snelheid": "0km/u"
+    },
+    "tram": {
+        "vervoer": "tram",
+        "beginpunt": "Tramhalte de Pijp",
+        "eindpunt": "Tramhalte Wibbautstraat",
+        "vertrektijd": "20:23:00",
+        "eindtijd": "20:27:15",
+        "afstand": "1,4km",
+        "snelheid": "16,8km/u"
+    },
+    "lopen2": {
+        "vervoer": "lopen",
+        "beginpunt": "Tramhalte Wibbautstraat",
+        "eindpunt": "Ingang Theo Thijssen Huis",
+        "vertrektijd": "20:27:15",
+        "eindtijd": "20:30:22",
+        "afstand": "0,27km",
+        "snelheid": "5,4km/u"
+    }
+}
