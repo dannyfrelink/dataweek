@@ -1,4 +1,4 @@
-import { onMouseMove, onMouseOut } from '../modules/hover';
+import { onMouseMoveMap, onMouseOut } from '../modules/hover';
 
 function Map() {
     // SVG of Mickey's route
@@ -3992,17 +3992,17 @@ function Map() {
                 <rect x="0.18" y="858.07" className="st15" width="1919.82" height="15" />
             </g>
             <g id="route_lopen_1">
-                <path data-transport="lopen1" onMouseMove={onMouseMove} onMouseLeave={onMouseOut} className="st16" d="M475.54,734.65l2.46,9.26c0.73,2.75-0.98,5.56-3.76,6.17l-53.85,11.85c-2.72,0.6-4.43,3.3-3.8,6.01
+                <path data-transport="lopen1" onMouseMove={onMouseMoveMap} onMouseLeave={onMouseOut} className="st16" d="M475.54,734.65l2.46,9.26c0.73,2.75-0.98,5.56-3.76,6.17l-53.85,11.85c-2.72,0.6-4.43,3.3-3.8,6.01
 		l2.41,10.51c0.61,2.66,3.24,4.34,5.91,3.78l16-2.88"/>
             </g>
             <g id="route_tram">
-                <path data-transport="tram" onMouseMove={onMouseMove} onMouseLeave={onMouseOut} className="st17" d="M436.83,779.85l250.82-56.32l128.94-43.55l115-42.58L1266,470.73c0,0,21.74-10.87,46.27-12.67
+                <path data-transport="tram" onMouseMove={onMouseMoveMap} onMouseLeave={onMouseOut} className="st17" d="M436.83,779.85l250.82-56.32l128.94-43.55l115-42.58L1266,470.73c0,0,21.74-10.87,46.27-12.67
 		c24.54-1.8,37.35-12.14,39.14-19.92s5.92-20.05,25.07-29.02c19.15-8.98,86.54-38.85,86.54-38.85l41.54-17.87"/>
-                <path data-transport="tram" onMouseMove={onMouseMove} onMouseLeave={onMouseOut} className="st18" d="M440.9,779.35l246.76-55.82l128.94-43.55l115-42.58L1266,470.73c0,0,21.74-10.87,46.27-12.67
+                <path data-transport="tram" onMouseMove={onMouseMoveMap} onMouseLeave={onMouseOut} className="st18" d="M440.9,779.35l246.76-55.82l128.94-43.55l115-42.58L1266,470.73c0,0,21.74-10.87,46.27-12.67
 		c24.54-1.8,37.35-12.14,39.14-19.92s5.92-20.05,25.07-29.02c19.15-8.98,86.54-38.85,86.54-38.85l52.84-22.74"/>
             </g>
             <g id="route_lopen_2">
-                <path data-transport="lopen2" onMouseMove={onMouseMove} onMouseLeave={onMouseOut} className="st16" d="M1498.68,355.62l22.23-9.84c2.72-1.2,4.03-4.32,2.99-7.11l-31.86-85.44l-35.43-92.61
+                <path data-transport="lopen2" onMouseMove={onMouseMoveMap} onMouseLeave={onMouseOut} className="st16" d="M1498.68,355.62l22.23-9.84c2.72-1.2,4.03-4.32,2.99-7.11l-31.86-85.44l-35.43-92.61
 		c-0.76-2.01-8.42-7.93-10.31-9.86l-5.93-5.54c-3.2,0.05,2.9-6.64,2.9-6.64"/>
             </g>
             <g id="icon_hva">

@@ -2,7 +2,7 @@ import * as d3 from 'd3';
 import * as data from '../../data.json';
 
 // Activates on hover bar chart
-function onMouseMove(d) {
+function onMouseMoveMap(d) {
     const xPosition = d.clientX;
     const yPosition = d.clientY;
     const transportID = d.currentTarget.dataset.transport
@@ -24,4 +24,4 @@ function onMouseOut() {
     d3.select('#content').classed('hidden', true);
 }
 
-export { onMouseMove, onMouseOut };
+export { onMouseMoveMap, onMouseOut };
