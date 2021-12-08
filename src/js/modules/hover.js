@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 import * as data from '../../data.json';
 
-// Activates on hover bar chart
+// Activates on hover Map
 function onMouseMoveMap(d) {
     const xPosition = d.clientX;
     const yPosition = d.clientY;
@@ -18,7 +18,7 @@ function onMouseMoveMap(d) {
         .text(`${dataSet.vervoer}: ${dataSet.snelheid}, ${dataSet.reistijd}`);
 }
 
-// Activates on stop hovering bar chart
+// Activates on stop hovering
 function onMouseOut() {
     d3.select('#tooltip').classed('hidden', true);
     d3.select('#content').classed('hidden', true);
