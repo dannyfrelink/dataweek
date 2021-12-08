@@ -1,3 +1,5 @@
+import { onMouseMoveGraph, onMouseOut } from "../modules/hover";
+
 function Graph() {
     return (
         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" className="graph" viewBox="0 0 1920 1080" preserveAspectRatio='xMidYMid meet'>
@@ -403,7 +405,7 @@ function Graph() {
 			c-0.28,0-0.52,0.08-0.71,0.25l-1.71-0.55l0.34-4.89h4.94v2.25H1268.05z"/>
                 </g>
             </g>
-            <g id="Stuk01_x5F_lopen">
+            <g data-transport="lopen1" onMouseMove={onMouseMoveGraph} onMouseLeave={onMouseOut} id="Stuk01_x5F_lopen">
                 <rect x="289.3" y="986.73" className="st1_2" width="63.76" height="30.91" />
                 <g>
                     <path className="st2_2" d="M297.27,1012.88c-0.56,0-1.05-0.02-1.45-0.04c-0.4-0.03-0.74-0.12-1.02-0.26c-0.28-0.14-0.49-0.36-0.65-0.66
@@ -468,7 +470,7 @@ function Graph() {
                 <path className="st5_2" d="M333.21,938.48l-1.86,3.72c-0.16,0.31-0.55,0.41-0.83,0.2l-0.94-0.7c-0.21-0.16-0.29-0.44-0.18-0.68l1.73-3.89
 		c0.15-0.34,0.57-0.44,0.86-0.21l1.08,0.86C333.26,937.96,333.32,938.24,333.21,938.48z"/>
             </g>
-            <g id="stuk02_x5F_wachten">
+            <g data-transport="wachten" onMouseMove={onMouseMoveGraph} onMouseLeave={onMouseOut} id="stuk02_x5F_wachten">
                 <polyline className="st1_2" points="400.78,1015.86 400.91,1014.42 398.03,1014.77 398.2,1016.29 399.79,1016.61 400.78,1015.86 
 		400.78,1015.86 	"/>
                 <path className="st2_2" d="M397.99,1015.07c0,0-0.38,2.25,0.02,2.41c0.4,0.17,7.7,0.47,8.09,0.02c0.38-0.46-2.91-2.36-5.03-3.02
@@ -525,7 +527,7 @@ function Graph() {
 			l-1.31,3.19l0.07,0.16h1.44V1004.29z"/>
                 </g>
             </g>
-            <g id="stuk_03_x5F_tram">
+            <g data-transport="tram" onMouseMove={onMouseMoveGraph} onMouseLeave={onMouseOut} id="stuk_03_x5F_tram">
                 <rect x="429.89" y="921.11" className="st3_2" width="803.6" height="96.53" />
                 <circle className="st1_2" cx="472.57" cy="1013.19" r="4.28" />
                 <circle className="st1_2" cx="511.73" cy="1013.19" r="4.28" />
@@ -585,7 +587,7 @@ function Graph() {
                     <path className="st7_2" d="M503.79,941.66l-3.22-7.31h-0.11v7.31h-2.57v-13.63h2.77l1.91,4.73h0.11v-4.73h2.59v13.63H503.79z" />
                 </g>
             </g>
-            <g id="stuk04_x5F_lopen">
+            <g data-transport="lopen2" onMouseMove={onMouseMoveGraph} onMouseLeave={onMouseOut} id="stuk04_x5F_lopen">
                 <rect x="1230.37" y="989.69" className="st1_2" width="406.49" height="27.95" />
                 <g>
                     <path className="st2_2" d="M1249.28,1011.9c-0.56,0-1.05-0.02-1.45-0.04c-0.4-0.03-0.74-0.12-1.02-0.26c-0.28-0.14-0.49-0.36-0.65-0.66
