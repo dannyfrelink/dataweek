@@ -4021,24 +4021,24 @@ function Map() {
                 <rect x="1441.81" y="111.04" className="st1" width="1.47" height="35.94" />
                 <polygon className="st19" points="1384.93,88.64 1437.01,78.57 1452.2,106 1399.18,120.58 	" />
             </g>
-            <g id="markertram">
+            <g data-transport="tram2" onMouseMove={onMouseMoveMap} onMouseLeave={onMouseOut} id="markertram">
                 <ellipse className="st10" cx="429.96" cy="781.69" rx="14.28" ry="11.62" />
                 <path className="st7" d="M429.96,786.05c0,0-37.05-71.02,0-71.64V786.05z" />
                 <path className="st7" d="M429.96,786.05c0,0,37.05-71.02,0-71.64V786.05z" />
                 <circle className="st1" cx="430.19" cy="732.93" r="8.46" />
             </g>
-            <g id="kruising_2">
+            <g data-transport="kruising1" onMouseMove={onMouseMoveMap} onMouseLeave={onMouseOut} id="kruising_2">
                 <ellipse className="st10" cx="1048.67" cy="577.38" rx="13.75" ry="11.19" />
                 <path className="st7" d="M1048.67,581.58c0,0-35.66-68.35,0-68.94V581.58z" />
                 <path className="st7" d="M1048.67,581.58c0,0,35.66-68.35,0-68.94V581.58z" />
                 <circle className="st1" cx="1048.89" cy="530.45" r="8.14" />
             </g>
-            <g id="kruising_3">
+            <g data-transport="kruising2" onMouseMove={onMouseMoveMap} onMouseLeave={onMouseOut} id="kruising_3">
                 <ellipse className="st10" cx="1259.66" cy="473.13" rx="13.75" ry="11.19" />
                 <path className="st7" d="M1259.66,408.39c-35.66,0.59,0,68.94,0,68.94S1295.32,408.98,1259.66,408.39z" />
                 <circle className="st1" cx="1259.88" cy="426.2" r="8.14" />
             </g>
-            <g id="kruising_4">
+            <g data-transport="kruising3" onMouseMove={onMouseMoveMap} onMouseLeave={onMouseOut} id="kruising_4">
                 <ellipse className="st10" cx="1505.03" cy="352.89" rx="13.75" ry="11.19" />
                 <path className="st7" d="M1505.03,357.09c0,0-35.66-68.35,0-68.94V357.09z" />
                 <path className="st7" d="M1505.03,357.09c0,0,35.66-68.35,0-68.94V357.09z" />

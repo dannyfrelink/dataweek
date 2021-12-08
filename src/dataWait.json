@@ -1,0 +1,18 @@
+{
+    "tram2": {
+        "secWachten": "7200",
+        "minWachten": "12"
+    },
+    "kruising1": {
+        "secWachten": "42",
+        "minWachten": "0,7"
+    },
+    "kruising2": {
+        "secWachten": "31",
+        "minWachten": "0,52"
+    },
+    "kruising3": {
+        "secWachten": "12",
+        "minWachten": "0,2"
+    }
+}
