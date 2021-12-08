@@ -5,6 +5,8 @@ function onMouseMove(d) {
     const xPosition = d.clientX;
     const yPosition = d.clientY;
 
+    console.log(d.currentTarget.dataset.transport)
+
     d3.select('#tooltip')
         .classed('hidden', false)
         .style('left', xPosition + -40 + 'px')
@@ -12,7 +14,7 @@ function onMouseMove(d) {
 
     d3.select('#content')
         .classed('hidden', false)
-        .text(`${data.currency}: ${data.value}`);
+        .text(`test`);
 }
 
 // Activates on stop hovering bar chart
