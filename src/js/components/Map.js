@@ -1,9 +1,18 @@
 import { onMouseMove, onMouseOut } from '../modules/hover';
+// import { useEffect, useState } from 'react';
 
 function Map() {
-    function onClick(d) {
-        const transportType = d.currentTarget.dataset.transport;
-    }
+    // function onClick(d) {
+    //     const transportType = d.currentTarget.dataset.transport;
+    // }
+
+    // function onMouseMove(d) {
+    //     d.currentTarget.dataset.transport
+    // }
+
+    // function onMouseOut() {
+
+    // }
 
     // SVG of Mickey's route
     return (
