@@ -3,13 +3,11 @@ import { onMouseMove, onMouseOut } from '../modules/hover';
 function Map() {
     // SVG of Mickey's route
     return (
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-            viewBox="0 0 1920 1080" preserveAspectRatio='xMidYMid meet'
-            style={{ enableBackground: "new 0 0 1920 1080" }}>
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" className="map" viewBox="0 0 1920 1080" preserveAspectRatio='xMidYMid meet'>
             <g id="BG_PLATTEGROND">
                 <g id="map">
                     <rect y="-0.7" className="st0" width="1917.37" height="771.93" />
-                    <rect x="0.18" y="-0.7" className="st1" width="1919.82" height="1080.7" />
+                    <rect x="0.18" y="-0.7" className="st1" width="1919.82" height="850" />
                 </g>
                 <g>
                     <defs>
@@ -3991,7 +3989,7 @@ function Map() {
                 <ellipse className="st10" cx="465.4" cy="723.84" rx="42.2" ry="23.52" />
                 <rect x="0.18" y="835.69" className="st7" width="1919.82" height="22.39" />
                 <ellipse className="st10" cx="1418.56" cy="138.6" rx="50.45" ry="28.12" />
-                <rect x="0.18" y="858.07" className="st15" width="1919.82" height="221.93" />
+                <rect x="0.18" y="858.07" className="st15" width="1919.82" height="15" />
             </g>
             <g id="route_lopen_1">
                 <path data-transport="lopen1" onMouseMove={onMouseMove} onMouseLeave={onMouseOut} className="st16" d="M475.54,734.65l2.46,9.26c0.73,2.75-0.98,5.56-3.76,6.17l-53.85,11.85c-2.72,0.6-4.43,3.3-3.8,6.01

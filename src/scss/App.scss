@@ -1,3 +1,8 @@
+// @font-face {
+//   font-family: ;
+//   src: url();
+// }
+
 .App {
   min-height: 100vh;
   display: flex;
@@ -24,81 +29,132 @@
   }
 }
 
-.water {
-  fill:#8EBCED;
+// Styling Title IMG
+.title {
+  position: absolute;
+  left: 7.5vw;
+  width: 25vw;
 }
 
-.st0 {
-  display:none;
-  fill:#EBC7BD;
+// Styling Map SVG
+.map {
+  width: 85vw;
+  margin: 0 auto;
+
+  .water {
+    fill:#8EBCED;
+  }
+  .st0 {
+    display:none;
+    fill:#EBC7BD;
+  }
+  .st1 {
+    fill:#EBC7BD;
+  }
+  .st4 {
+    fill:none;
+  }
+  .st5 {
+    fill:#CDCDCD;
+  }
+  .st6 {
+    fill:#DEDCDB;
+  }
+  .st7 {
+    fill:#E06251;
+  }
+  .st8 {
+    fill:#1D1D1B;
+  }
+  .st9 {
+    fill:#FBFBFB;
+  }
+  .st10 {
+    fill:#1D4ED1;
+  }
+  .st11 {
+    fill:none;
+    stroke:#A0A0A0;
+    stroke-width:0.3;
+    stroke-miterlimit:10;
+  }
+  .st12 {
+    fill:#A0A0A0;
+  }
+  .st13 {
+    fill:#B56161;
+  }
+  .st14 {
+    fill:none;
+    stroke:#000000;
+    stroke-width:10;
+    stroke-miterlimit:10;}
+  .st15 {
+    fill:#FFFFFF;
+  }
+  .st16 {
+    fill:none;
+    stroke:#FFFFFF;
+    stroke-width:16;
+    stroke-miterlimit:10;
+  }
+  .st17 {
+    fill:none;
+    stroke:#0D7AD9;
+    stroke-width:16;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+  }
+  .st18 {
+    fill:none;
+    stroke:#FFFFFF;
+    stroke-width:7;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+    stroke-miterlimit:10;
+    stroke-dasharray:20,20;
+  }
+  .st19 {
+    fill:#367AD2;
+  }
 }
-.st1 {
-  fill:#EBC7BD;
-}
-.st4 {
-  fill:none;
-}
-.st5 {
-  fill:#CDCDCD;
-}
-.st6 {
-  fill:#DEDCDB;
-}
-.st7 {
-  fill:#E06251;
-}
-.st8 {
-  fill:#1D1D1B;
-}
-.st9 {
-  fill:#FBFBFB;
-}
-.st10 {
-  fill:#1D4ED1;
-}
-.st11 {
-  fill:none;
-  stroke:#A0A0A0;
-  stroke-width:0.3;
-  stroke-miterlimit:10;
-}
-.st12 {
-  fill:#A0A0A0;
-}
-.st13 {
-  fill:#B56161;
-}
-.st14 {
-  fill:none;
-  stroke:#000000;
-  stroke-width:10;
-  stroke-miterlimit:10;}
-.st15 {
-  fill:#FFFFFF;
-}
-.st16 {
-  fill:none;
-  stroke:#FFFFFF;
-  stroke-width:16;
-  stroke-miterlimit:10;
-}
-.st17 {
-  fill:none;
-  stroke:#0D7AD9;
-  stroke-width:16;
-  stroke-linecap:round;
-  stroke-linejoin:round;
-  stroke-miterlimit:10;
-}
-.st18 {
-fill:none;
-stroke:#FFFFFF;
-stroke-width:7;
-stroke-linecap:round;
-stroke-linejoin:round;
-stroke-miterlimit:10;
-stroke-dasharray:20,20;
-}
-.st19 {
-  fill:#367AD2;
+
+// Styling Graph SVG
+.graph {
+  width: 85vw;
+  position: absolute;
+  left: 7.5vw;
+  z-index: -1;
+
+  .st0_2 {
+    fill:#1D4ED1;
+  }
+  .st1_2 {
+    fill:#EBC7BD;
+  }
+  .st2_2 {
+    fill:#E06251;
+  }
+  .st3_2 {
+    fill:#367AD2;
+  }
+  .st4_2 {
+    fill:#2C66D2;
+  }
+  .st5_2 {
+    fill:#373534;
+  }
+  .st6_2 {
+    fill:#3B67CB;
+  }
+  .st7_2 {
+    fill:#F9F9F9;
+  }
+  .st8_2 {
+    fill:none;
+    stroke:#E06251;
+    stroke-width:8;
+    stroke-miterlimit:10;
+  }
 }
