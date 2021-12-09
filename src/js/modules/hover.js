@@ -18,8 +18,12 @@ function onMouseMoveMap(d) {
 
     d3.select('#tooltip')
         .classed('hidden', false)
+        .transition()
+        .duration(1000)
+        .ease(d3.easeCircleOut)
         .style('left', xPosition + -90 + 'px')
         .style('top', yPosition + -40 + 'px');
+
 
     if (dataSetTravelTransport) {
         d3.select('#content')
@@ -50,6 +54,9 @@ function onMouseMoveGraph(d) {
 
     d3.select('#tooltip')
         .classed('hidden', false)
+        .transition()
+        .duration(1000)
+        .ease(d3.easeCircleOut)
         .style('left', xPosition + -150 + 'px')
         .style('top', yPosition + -40 + 'px');
 
@@ -72,7 +79,7 @@ function onMouseOut() {
     d3.select('#tooltip').classed('hidden', true);
     d3.select('#content').classed('hidden', true);
 
-    d3.selectAll('path').style('opacity', 1)
+    d3.selectAll('path, polygon, polyline, rect').style('opacity', 1);
 }
 
 export { onMouseMoveMap, onMouseMoveGraph, onMouseOut };
