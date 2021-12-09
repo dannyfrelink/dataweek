@@ -4005,7 +4005,7 @@ function Map() {
                 <path className="st16" d="M1498.68,355.62l22.23-9.84c2.72-1.2,4.03-4.32,2.99-7.11l-31.86-85.44l-35.43-92.61
 		c-0.76-2.01-8.42-7.93-10.31-9.86l-5.93-5.54c-3.2,0.05,2.9-6.64,2.9-6.64"/>
             </g>
-            <g id="icon_hva">
+            <g data-building="hva" onMouseMove={onMouseMoveMap} onMouseLeave={onMouseOut} id="icon_hva">
                 <polyline className="st1" points="1400.65,162.93 1399.18,120.58 1452.2,106 1452.2,145.36 	" />
                 <polyline className="st7" points="1400.65,162.93 1399.18,120.58 1384.93,88.64 1386.63,133.87 1400.65,162.93 	" />
                 <polyline className="st19" points="1443.27,148.56 1443.27,136.94 1449.86,135.11 1449.86,146.29 	" />
@@ -4044,7 +4044,7 @@ function Map() {
                 <path className="st7" d="M1505.03,357.09c0,0,35.66-68.35,0-68.94V357.09z" />
                 <circle className="st1" cx="1505.25" cy="305.96" r="8.14" />
             </g>
-            <g id="icon_huis">
+            <g data-building="thuis" onMouseMove={onMouseMoveMap} onMouseLeave={onMouseOut} id="icon_huis">
                 <polygon className="st1" points="452.15,742.03 452.3,700.32 488.22,693.71 488.07,734.69 	" />
                 <polygon className="st19" points="476.89,736.99 476.89,726.24 483.47,724.91 483.47,735.64 	" />
                 <polygon className="st19" points="455.9,715.23 455.9,723.01 485.41,717.2 485.41,709.92 	" />

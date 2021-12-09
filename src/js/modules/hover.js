@@ -7,7 +7,9 @@ function onMouseMoveMap(d) {
     const xPosition = d.clientX;
     const yPosition = d.clientY;
     const transportID = d.currentTarget.dataset.transport;
-    const dataSetTravel = dataTravel.default[transportID];
+    const homeID = d.currentTarget.dataset.building;
+    const dataSetTravelTransport = dataTravel.default[transportID];
+    const dataSetTravelHome = dataTravel.default[homeID];
     const dataSetWait = dataWait.default[transportID];
 
     d3.select(d.target)
@@ -19,15 +21,20 @@ function onMouseMoveMap(d) {
         .style('left', xPosition + -90 + 'px')
         .style('top', yPosition + -40 + 'px');
 
-    if (dataSetTravel) {
+    if (dataSetTravelTransport) {
         d3.select('#content')
             .classed('hidden', false)
-            .text(`${dataSetTravel.vervoer}: ${dataSetTravel.snelheid}, ${dataSetTravel.reistijd}`);
+            .text(`${dataSetTravelTransport.vervoer}: ${dataSetTravelTransport.snelheid}, ${dataSetTravelTransport.reistijd}`);
+    }
+    if (dataSetTravelHome) {
+        d3.select('#content')
+            .classed('hidden', false)
+            .text(`Locatie: ${dataSetTravelHome}`);
     }
     if (dataSetWait) {
         d3.select('#content')
             .classed('hidden', false)
-            .text(`Maximale minuten wachten: ${dataSetWait.minWachten}`);
+            .text(`Maximale wachttijd: ${dataSetWait.minWachten} min`);
     }
 }
 
