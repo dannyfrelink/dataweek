@@ -1,12 +1,8 @@
-// @font-face {
-//   font-family: ;
-//   src: url();
-// }
-
 .App {
   display: flex;
   flex-direction: column;
   color: black;
+  margin-top: 2em;
 
   #tooltip {
     position: absolute;
