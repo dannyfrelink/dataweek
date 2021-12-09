@@ -13,6 +13,8 @@ We were giving the assignment to make a visualisation about our journey between 
 
 The data we chose to measure is about the speed of Mickey on his journey and the time it took him to complete it. We also chose to take the traffic lights, he'll pass on his way, into consideration. We've measured the maximum waiting time in minutes for each traffic light. We've used Geo data of the map of Amsterdam to show the route of Mickey's journey on.
 
+![Eindproduct](https://github.com/dannyfrelink/dataweek/blob/main/public/images/eindproduct.png)
+
 ## 🔧 Installation
 
 If you're looking to use our code for yourself, you can clone this GitHub repository:
