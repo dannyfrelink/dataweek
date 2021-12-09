@@ -4,7 +4,7 @@ Welcome to the Readme for our (Mickey Stots & Danny Frelink) repository for the 
 ## 📋 Table of Contents
 
 * [Concept](https://github.com/dannyfrelink/dataweek#-concept)
-* [Process](https://github.com/dannyfrelink/Frontend-Apps#%EF%B8%8F-process)
+* [Process](https://github.com/dannyfrelink/dataweek#%EF%B8%8F-process)
 * [Installation](https://github.com/dannyfrelink/dataweek#-installation)
 * [License](https://github.com/dannyfrelink/dataweek#-license)
 
