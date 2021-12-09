@@ -1,6 +1,6 @@
 import * as d3 from 'd3';
-import * as dataTravel from '../../dataTravel.json';
-import * as dataWait from '../../dataWait.json';
+import * as dataTravel from '../../data/dataTravel.json';
+import * as dataWait from '../../data/dataWait.json';
 
 // Activates on hover Map
 function onMouseMoveMap(d) {
