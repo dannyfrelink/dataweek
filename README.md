@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Frontend-Apps
+Welcome to the Readme for our (Mickey Stots & Danny Frelink) repository for the Dataweek. You can find alle the information about the content inside this repository and how to transfer it to your own PC.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 Table of Contents
 
-## Available Scripts
+* [Concept](https://github.com/dannyfrelink/dataweek#-concept)
+* [Installation](https://github.com/dannyfrelink/dataweek#-installation)
+* [License](https://github.com/dannyfrelink/dataweek#-license)
 
-In the project directory, you can run:
+## 💡 Concept
 
-### `npm start`
+We were giving the assignment to make a visualisation about our journey between school and home. We chose to use the Mickey's journey for this assignment. His journey consists of a short walk from his house to the tram station, taking the tram to Wibbautstaat and another walk from there to school.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The data we chose to measure is about the speed of Mickey on his journey and the time it took him to complete it. We also chose to take the traffic lights, he'll pass on his way, into consideration. We've measured the maximum waiting time in minutes for each traffic light. We've used Geo data of the map of Amsterdam to show the route of Mickey's journey on.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🔧 Installation
 
-### `npm test`
+If you're looking to use our code for yourself, you can clone this GitHub repository:
+```
+git clone https://github.com/dannyfrelink/dataweek
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You then need to install all NPM packages:
+```
+npm install
+```
 
-### `npm run build`
+Start the REACT App with the following command:
+```
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📄 License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+We have used the [MIT License](https://github.com/dannyfrelink/dataweek/blob/main/LICENSE) for this repository.
