@@ -79,7 +79,7 @@ function onMouseOut() {
     d3.select('#tooltip').classed('hidden', true);
     d3.select('#content').classed('hidden', true);
 
-    d3.selectAll('path, polygon, polyline, rect').style('opacity', 1);
+    d3.selectAll('path, polygon, polyline, rect, circle').style('opacity', 1);
 }
 
 export { onMouseMoveMap, onMouseMoveGraph, onMouseOut };
