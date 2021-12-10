@@ -18,7 +18,7 @@ The data we chose to measure is about the speed of Mickey on his journey and the
 
 ## ⚙️ Process
 
-Since Mickey is more Visual based and Danny more Tech based, we chose to divide those tasks between us. Mickey was in charge of creating all the SVG's inside our visualisation. Danny got the tasks to convert these SVG's interactive by converting it to code. The collaboration went smoothly with some contact over WhatsApp.
+Since Mickey is more Visual based and Danny more Tech based, we chose to divide those tasks between us. Mickey was in charge of creating all the SVG's inside our visualisation. Danny got the tasks to convert these SVG's interactive by converting it to code. The collaboration went smoothly with some contact over WhatsApp. Read more about our process in our [Wiki](https://github.com/dannyfrelink/dataweek/wiki)
 
 ## 🔧 Installation
 
